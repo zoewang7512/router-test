@@ -2,7 +2,7 @@
   "name": "router-test",
   "version": "0.1.0",
   "private": true,
-   "homepage":"https://zoewang7512.github.io/router-test",
+   "homepage":"https://zoewang7512.github.io/router-test/#",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

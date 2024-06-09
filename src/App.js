@@ -8,12 +8,12 @@ import ErrorPage from "./ErrorPage";
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
+     <HashRouter>
       <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/*" element={<Home />} />
             <Route path="/1" element={<Page1 />} />
-            <Route path='*' element={<ErrorPage />}/>
-          </Routes></BrowserRouter>
+            {/*<Route path='*' element={<ErrorPage />}/>*/}
+          </Routes></HashRouter>
     </div>
   );
 }
