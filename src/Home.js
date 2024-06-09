@@ -3,7 +3,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>Home
+      <button> <a href="#/page1">page1</a></button>
+    </div>
+    
   )
 }
 
