@@ -9,8 +9,9 @@ function App() {
     <div className="App">
      <HashRouter>
       <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/1" element={<Page1 />} />
+            {/*<Route path="/" element={<Home />} />*/}
+            <Route path="/*" element={<Home />} />
+            <Route path="/#1" element={<Page1 />} />
           </Routes></HashRouter>
     </div>
   );
