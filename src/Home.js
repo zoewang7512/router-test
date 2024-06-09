@@ -1,13 +1,13 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div> 
      path="/" element=Home 
-      path="/#1" element=Page1 
+      path="/page1" element=Page1 
   
-      <button> <a href="/#1">page1</a></button>
+      <button> <Link to='/page1'>page1</Link></button>
     </div>
     
   )
