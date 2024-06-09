@@ -3,6 +3,7 @@ import './App.css';
 
 import Home from "./Home";
 import Page1 from "./Page1";
+import ErrorPage from "./ErrorPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
            <Route path="/" element={<Home />} />
             <Route path="/page1" element={<Page1 />} />
+            <Route path='*' element={<ErrorPage />}/>
           </Routes></HashRouter>
     </div>
   );
