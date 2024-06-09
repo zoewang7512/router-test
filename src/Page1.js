@@ -5,7 +5,7 @@ const Page1 = () => {
     <div>Page1
       path="/" element=Home 
       path="/#1" element=Page1 
-       <button> <a href="/router-test/#">home</a></button>
+       <button> <a href="/">home</a></button>
     </div>
   )
 }

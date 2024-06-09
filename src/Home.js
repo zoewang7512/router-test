@@ -7,7 +7,7 @@ const Home = () => {
      path="/" element=Home 
       path="/#1" element=Page1 
   
-      <button> <a href="/#1">page1</a></button>
+      <button> <a href="/p1">page1</a></button>
     </div>
     
   )
